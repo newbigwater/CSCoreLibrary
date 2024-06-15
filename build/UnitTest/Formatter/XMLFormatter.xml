@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<AnimalList xsi:type="Male">
+		<Number>104</Number>
+		<AnimalType>E_PERSON</AnimalType>
+		<ID>E_PERSON.b241f42b-807d-4738-baa1-8d52b022e04f</ID>
+		<Pet xsi:type="Dog">
+			<Number>105</Number>
+			<AnimalType>E_DOG</AnimalType>
+			<ID>E_DOG.dee53c47-d5ed-4a0c-973b-5ef2830ae941</ID>
+			<Name>Dog Pet A1</Name>
+			<BeforeOwner>
+			</BeforeOwner>
+		</Pet>
+		<Pet xsi:type="Cat">
+			<Number>106</Number>
+			<AnimalType>E_CAT</AnimalType>
+			<ID>E_CAT.45a1bd3d-eef7-4057-ab23-006806e94dd1</ID>
+			<Name>Cat Pet A2</Name>
+			<BeforeOwner>
+			</BeforeOwner>
+		</Pet>
+		<PersonType>E_XY</PersonType>
+		<Name>A</Name>
+		<Age>10</Age>
+	</AnimalList>
+	<AnimalList xsi:type="Female">
+		<Number>107</Number>
+		<AnimalType>E_PERSON</AnimalType>
+		<ID>E_PERSON.d4af1673-a97c-4357-a805-3252baabeafe</ID>
+		<Pet xsi:type="Cat">
+			<Number>108</Number>
+			<AnimalType>E_CAT</AnimalType>
+			<ID>E_CAT.ae6a7200-502b-4a02-af83-11e40610b636</ID>
+			<Name>Cat Pet B1</Name>
+			<BeforeOwner>
+			</BeforeOwner>
+		</Pet>
+		<Pet xsi:type="Dog">
+			<Number>109</Number>
+			<AnimalType>E_DOG</AnimalType>
+			<ID>E_DOG.5097c3a3-22a9-4d16-a147-d3f7737ca3bf</ID>
+			<Name>Dog Pet B2</Name>
+			<BeforeOwner>
+			</BeforeOwner>
+		</Pet>
+		<PersonType>E_XX</PersonType>
+		<Name>B</Name>
+		<Age>20</Age>
+	</AnimalList>
+	<AnimalList xsi:type="Cat">
+		<Number>110</Number>
+		<AnimalType>E_CAT</AnimalType>
+		<ID>E_CAT.ae2d1f6b-11ce-4b72-b7ac-6df713e74ed2</ID>
+		<Name>C</Name>
+		<BeforeOwner>
+			<A xsi:type="Male">
+				<Number>104</Number>
+				<AnimalType>E_PERSON</AnimalType>
+				<ID>E_PERSON.b241f42b-807d-4738-baa1-8d52b022e04f</ID>
+				<Pet xsi:type="Dog">
+					<Number>105</Number>
+					<AnimalType>E_DOG</AnimalType>
+					<ID>E_DOG.dee53c47-d5ed-4a0c-973b-5ef2830ae941</ID>
+					<Name>Dog Pet A1</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<Pet xsi:type="Cat">
+					<Number>106</Number>
+					<AnimalType>E_CAT</AnimalType>
+					<ID>E_CAT.45a1bd3d-eef7-4057-ab23-006806e94dd1</ID>
+					<Name>Cat Pet A2</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<PersonType>E_XY</PersonType>
+				<Name>A</Name>
+				<Age>10</Age>
+			</A>
+			<B xsi:type="Female">
+				<Number>107</Number>
+				<AnimalType>E_PERSON</AnimalType>
+				<ID>E_PERSON.d4af1673-a97c-4357-a805-3252baabeafe</ID>
+				<Pet xsi:type="Cat">
+					<Number>108</Number>
+					<AnimalType>E_CAT</AnimalType>
+					<ID>E_CAT.ae6a7200-502b-4a02-af83-11e40610b636</ID>
+					<Name>Cat Pet B1</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<Pet xsi:type="Dog">
+					<Number>109</Number>
+					<AnimalType>E_DOG</AnimalType>
+					<ID>E_DOG.5097c3a3-22a9-4d16-a147-d3f7737ca3bf</ID>
+					<Name>Dog Pet B2</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<PersonType>E_XX</PersonType>
+				<Name>B</Name>
+				<Age>20</Age>
+			</B>
+		</BeforeOwner>
+	</AnimalList>
+	<AnimalList xsi:type="Dog">
+		<Number>111</Number>
+		<AnimalType>E_DOG</AnimalType>
+		<ID>E_DOG.966cb6f6-1d80-4b9e-b2e5-5fd762b2dc7b</ID>
+		<Name>D</Name>
+		<BeforeOwner>
+			<E_PERSON.d4af1673-a97c-4357-a805-3252baabeafe xsi:type="Female">
+				<Number>107</Number>
+				<AnimalType>E_PERSON</AnimalType>
+				<ID>E_PERSON.d4af1673-a97c-4357-a805-3252baabeafe</ID>
+				<Pet xsi:type="Cat">
+					<Number>108</Number>
+					<AnimalType>E_CAT</AnimalType>
+					<ID>E_CAT.ae6a7200-502b-4a02-af83-11e40610b636</ID>
+					<Name>Cat Pet B1</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<Pet xsi:type="Dog">
+					<Number>109</Number>
+					<AnimalType>E_DOG</AnimalType>
+					<ID>E_DOG.5097c3a3-22a9-4d16-a147-d3f7737ca3bf</ID>
+					<Name>Dog Pet B2</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<PersonType>E_XX</PersonType>
+				<Name>B</Name>
+				<Age>20</Age>
+			</E_PERSON.d4af1673-a97c-4357-a805-3252baabeafe>
+			<E_PERSON.b241f42b-807d-4738-baa1-8d52b022e04f xsi:type="Male">
+				<Number>104</Number>
+				<AnimalType>E_PERSON</AnimalType>
+				<ID>E_PERSON.b241f42b-807d-4738-baa1-8d52b022e04f</ID>
+				<Pet xsi:type="Dog">
+					<Number>105</Number>
+					<AnimalType>E_DOG</AnimalType>
+					<ID>E_DOG.dee53c47-d5ed-4a0c-973b-5ef2830ae941</ID>
+					<Name>Dog Pet A1</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<Pet xsi:type="Cat">
+					<Number>106</Number>
+					<AnimalType>E_CAT</AnimalType>
+					<ID>E_CAT.45a1bd3d-eef7-4057-ab23-006806e94dd1</ID>
+					<Name>Cat Pet A2</Name>
+					<BeforeOwner>
+					</BeforeOwner>
+				</Pet>
+				<PersonType>E_XY</PersonType>
+				<Name>A</Name>
+				<Age>10</Age>
+			</E_PERSON.b241f42b-807d-4738-baa1-8d52b022e04f>
+		</BeforeOwner>
+	</AnimalList>
+</root>

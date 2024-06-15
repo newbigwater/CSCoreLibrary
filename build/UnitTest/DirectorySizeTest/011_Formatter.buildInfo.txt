@@ -1,0 +1,5 @@
+Date Time              : 2022-11-01 13:05:53.57 
+Artifact Name          : 011_Formatter.dll 
+Artifact Version       : 1.0.0.1   
+Artifact Platform      : AnyCPU 
+Artifact Configuration : Release 

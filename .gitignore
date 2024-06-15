@@ -1,0 +1,14 @@
+obj
+bin
+*.suo
+*.user
+packages
+output
+.vs
+TestResults
+AnyCPUDebug
+AnyCPURelease
+x64Debug
+x64Release
+JsonFormatter_Integrity.xml
+XMLFormatter_Integrity.xml

@@ -1,0 +1,5 @@
+Date Time              : 2022-11-01 13:06:09.91 
+Artifact Name          : 013_Control.dll 
+Artifact Version       : 1.0.0.1   
+Artifact Platform      : AnyCPU 
+Artifact Configuration : Release 

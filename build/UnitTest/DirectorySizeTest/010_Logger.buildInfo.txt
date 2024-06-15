@@ -1,0 +1,5 @@
+Date Time              : 2022-11-01 13:05:45.72 
+Artifact Name          : 010_Logger.dll 
+Artifact Version       : 1.0.0.1   
+Artifact Platform      : AnyCPU 
+Artifact Configuration : Release 

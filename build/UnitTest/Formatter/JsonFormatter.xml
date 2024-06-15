@@ -1,0 +1,224 @@
+﻿{
+	"AnimalList": [
+		{
+			"xsi:type": "Male"
+			"Number": 48
+			"AnimalType": "E_PERSON"
+			"ID": "E_PERSON.65a3c4bf-be47-429f-9717-c6b0f7f3f3b5"
+			"Pet": [
+				{
+					"xsi:type": "Dog"
+					"Number": 49
+					"AnimalType": "E_DOG"
+					"ID": "E_DOG.d5ca57a9-32fc-4b6b-8147-11a6e6a72eda"
+					"Pet": [
+					]
+					"Name": "Dog Pet A1"
+					"BeforeOwner": {
+					}
+				}
+				{
+					"xsi:type": "Cat"
+					"Number": 50
+					"AnimalType": "E_CAT"
+					"ID": "E_CAT.61bbba88-8a8c-470a-b54c-daa437b5532c"
+					"Pet": [
+					]
+					"Name": "Cat Pet A2"
+					"BeforeOwner": {
+					}
+				}
+			]
+			"PersonType": "E_XY"
+			"Name": "A"
+			"Age": 10
+		}
+		{
+			"xsi:type": "Female"
+			"Number": 51
+			"AnimalType": "E_PERSON"
+			"ID": "E_PERSON.23da07ae-0a52-4f24-84cc-0719553ab1c0"
+			"Pet": [
+				{
+					"xsi:type": "Cat"
+					"Number": 52
+					"AnimalType": "E_CAT"
+					"ID": "E_CAT.61363fc7-281a-4220-8944-db3a56e63a5c"
+					"Pet": [
+					]
+					"Name": "Cat Pet B1"
+					"BeforeOwner": {
+					}
+				}
+				{
+					"xsi:type": "Dog"
+					"Number": 53
+					"AnimalType": "E_DOG"
+					"ID": "E_DOG.43fb092e-d527-4a65-99c0-f3a9ea9b1556"
+					"Pet": [
+					]
+					"Name": "Dog Pet B2"
+					"BeforeOwner": {
+					}
+				}
+			]
+			"PersonType": "E_XX"
+			"Name": "B"
+			"Age": 20
+		}
+		{
+			"xsi:type": "Cat"
+			"Number": 54
+			"AnimalType": "E_CAT"
+			"ID": "E_CAT.82c72447-f0a7-47fd-bd7f-ab1630cb40d3"
+			"Pet": [
+			]
+			"Name": "C"
+			"BeforeOwner": {
+				"A": {
+					"xsi:type": "Male"
+					"Number": 48
+					"AnimalType": "E_PERSON"
+					"ID": "E_PERSON.65a3c4bf-be47-429f-9717-c6b0f7f3f3b5"
+					"Pet": [
+						{
+							"xsi:type": "Dog"
+							"Number": 49
+							"AnimalType": "E_DOG"
+							"ID": "E_DOG.d5ca57a9-32fc-4b6b-8147-11a6e6a72eda"
+							"Pet": [
+							]
+							"Name": "Dog Pet A1"
+							"BeforeOwner": {
+							}
+						}
+						{
+							"xsi:type": "Cat"
+							"Number": 50
+							"AnimalType": "E_CAT"
+							"ID": "E_CAT.61bbba88-8a8c-470a-b54c-daa437b5532c"
+							"Pet": [
+							]
+							"Name": "Cat Pet A2"
+							"BeforeOwner": {
+							}
+						}
+					]
+					"PersonType": "E_XY"
+					"Name": "A"
+					"Age": 10
+				}
+				"B": {
+					"xsi:type": "Female"
+					"Number": 51
+					"AnimalType": "E_PERSON"
+					"ID": "E_PERSON.23da07ae-0a52-4f24-84cc-0719553ab1c0"
+					"Pet": [
+						{
+							"xsi:type": "Cat"
+							"Number": 52
+							"AnimalType": "E_CAT"
+							"ID": "E_CAT.61363fc7-281a-4220-8944-db3a56e63a5c"
+							"Pet": [
+							]
+							"Name": "Cat Pet B1"
+							"BeforeOwner": {
+							}
+						}
+						{
+							"xsi:type": "Dog"
+							"Number": 53
+							"AnimalType": "E_DOG"
+							"ID": "E_DOG.43fb092e-d527-4a65-99c0-f3a9ea9b1556"
+							"Pet": [
+							]
+							"Name": "Dog Pet B2"
+							"BeforeOwner": {
+							}
+						}
+					]
+					"PersonType": "E_XX"
+					"Name": "B"
+					"Age": 20
+				}
+			}
+		}
+		{
+			"xsi:type": "Dog"
+			"Number": 55
+			"AnimalType": "E_DOG"
+			"ID": "E_DOG.112f7a7a-f16b-4436-b365-906430bf6664"
+			"Pet": [
+			]
+			"Name": "D"
+			"BeforeOwner": {
+				"E_PERSON.23da07ae-0a52-4f24-84cc-0719553ab1c0": {
+					"xsi:type": "Female"
+					"Number": 51
+					"AnimalType": "E_PERSON"
+					"ID": "E_PERSON.23da07ae-0a52-4f24-84cc-0719553ab1c0"
+					"Pet": [
+						{
+							"xsi:type": "Cat"
+							"Number": 52
+							"AnimalType": "E_CAT"
+							"ID": "E_CAT.61363fc7-281a-4220-8944-db3a56e63a5c"
+							"Pet": [
+							]
+							"Name": "Cat Pet B1"
+							"BeforeOwner": {
+							}
+						}
+						{
+							"xsi:type": "Dog"
+							"Number": 53
+							"AnimalType": "E_DOG"
+							"ID": "E_DOG.43fb092e-d527-4a65-99c0-f3a9ea9b1556"
+							"Pet": [
+							]
+							"Name": "Dog Pet B2"
+							"BeforeOwner": {
+							}
+						}
+					]
+					"PersonType": "E_XX"
+					"Name": "B"
+					"Age": 20
+				}
+				"E_PERSON.65a3c4bf-be47-429f-9717-c6b0f7f3f3b5": {
+					"xsi:type": "Male"
+					"Number": 48
+					"AnimalType": "E_PERSON"
+					"ID": "E_PERSON.65a3c4bf-be47-429f-9717-c6b0f7f3f3b5"
+					"Pet": [
+						{
+							"xsi:type": "Dog"
+							"Number": 49
+							"AnimalType": "E_DOG"
+							"ID": "E_DOG.d5ca57a9-32fc-4b6b-8147-11a6e6a72eda"
+							"Pet": [
+							]
+							"Name": "Dog Pet A1"
+							"BeforeOwner": {
+							}
+						}
+						{
+							"xsi:type": "Cat"
+							"Number": 50
+							"AnimalType": "E_CAT"
+							"ID": "E_CAT.61bbba88-8a8c-470a-b54c-daa437b5532c"
+							"Pet": [
+							]
+							"Name": "Cat Pet A2"
+							"BeforeOwner": {
+							}
+						}
+					]
+					"PersonType": "E_XY"
+					"Name": "A"
+					"Age": 10
+				}
+			}
+		}
+	]
+}
