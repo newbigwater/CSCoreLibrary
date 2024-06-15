@@ -1,0 +1,5 @@
+Date Time              : 2022-11-01 13:05:38.11 
+Artifact Name          : 001_Container.dll 
+Artifact Version       : 1.0.0.1   
+Artifact Platform      : AnyCPU 
+Artifact Configuration : Release 

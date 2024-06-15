@@ -1,0 +1,5 @@
+Date Time              : 2022-11-01 13:06:02.00 
+Artifact Name          : 012_Communication.dll 
+Artifact Version       : 1.0.0.1   
+Artifact Platform      : AnyCPU 
+Artifact Configuration : Release 
